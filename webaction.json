@@ -1,0 +1,22 @@
+{
+  "server": {
+    "url": "localhost:3000/",
+    "method": "GET",
+    "query": {
+      "url": "URL"
+    }
+  },
+  "name": {
+    "cn": "将网页转换成 Markdown",
+    "en": "Format a webpage into markdown"
+  },
+  "icon": "https://workflow-gallery.s3.amazonaws.com/workflow_icons/605621003f054e1cb3a0ec998b00c61b.png",
+  "required": [{
+    "count": 1,
+    "type": "URL"
+  }],
+  "returns": [{
+    "count": 1,
+    "type": "Text"
+  }]
+}
